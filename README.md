@@ -3,6 +3,7 @@ PitFusion
 The **Pitfusion** is a cutting-edge dual-camera module developed for the Raspberry Pi, combining a **thermal imaging sensor (MLX90640)** and a **Raspberry Pi camera** into a single, compact device. This innovative module is designed to provide users with the ability to capture both **thermal and visual images simultaneously**, opening up a wide range of applications in fields such as **automation, robotics, security, and environmental monitoring**.
 
 The **Pitfusion** module is a game-changer for Raspberry Pi enthusiasts and professionals, offering unparalleled flexibility and functionality for thermal and visual imaging projects. Explore its capabilities today and take your projects to the next level! 🚀
+
 Getting Started
 ---
 ### Compatibility
