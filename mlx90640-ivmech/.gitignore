@@ -1,0 +1,10 @@
+*.swp
+*.o
+*.a
+*.so
+python/*.gif
+bcm2835-*
+*.egg-info
+*.py[cod]
+python/library/build
+python/library/dist

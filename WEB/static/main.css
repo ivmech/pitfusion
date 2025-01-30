@@ -1,0 +1,28 @@
+  h1 {
+    text-align: center;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .container2 {
+    max-width: 50px;
+    margin: auto;
+  }
+
+  .form {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .form-inline {
+    margin: 5px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .btn {
+    margin-left: 3px;
+  }

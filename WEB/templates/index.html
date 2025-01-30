@@ -1,0 +1,222 @@
+<!--
+                                                                      
+     ██▒██                                                  ██▒██     
+   ██▒▒▒█                                                    █▒▒▒██   
+  █▓▒▒▒▒█                                                    █▒▒▒▒▓█  
+ █▓▒▒▒▒▒█                                                    █▒▒▒▒▒▓█ 
+██▒▒▒▒▒▒█                                                    █▒▒▒▒▒▒██
+█▒▒▒▒▒▒▒▓█                                                  ██▒▒▒▒▒▒▒█
+█▒▒▒▒▒▒▒▒██                     ███████                     █▒▒▒▒▒▒▒▒█
+█▒▒▒▒▒▒▒▒▒▓█                   █▓▒▒▒▒▒█                   ██▒▒▒▒▒▒▒▒▒█
+█▒▒▒▒▒▒▒▒▒▒▒██            ██████▒▒▒▒▒▒█▓████            ██▒▒▒▒▒▒▒▒▒▒▒█
+█▒▒▒▒▒▒▒▒▒▒▒▒▒▓█       ██▓▓▓▓▓▓█▒▒▒▒▒▒▓▓▓▓▓▓▓██       ██▒▒▒▒▒▒▒▒▒▒▒▒▓█
+██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓█████▓▓▓▓▓▓▓▓█▒▒▒▒▒▒▓█▓▓▓▓▓▓▓▓████▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+ █▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒█▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██ 
+  █▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓█▓▓▓▓▓▓▓▓█▓▒▒▒▒▒▒▒█▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██  
+   ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▓▓▓▓▓▓▓▓▓█▓▒▒▒▒▒▒▒█▓▓▓▓▓▓▓▓▓█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██   
+     █▓▒▒▒▒▒▒▒▒▒▒▒▒█▓▓▓▓▓▓▓▓▓██▓▓▓▓▓▓▓▓██▓▓▓▓▓▓▓▓▓█▒▒▒▒▒▒▒▒▒▒▒▒██     
+       ██▒▒▒▒▒▒▒▒██▓███▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓██████▒▒▒▒▒▒▒▒██       
+         ████████▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓████████         
+           ███▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓███          
+          ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓█████▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█          
+          ██▒▒▒▒▒▒▓███▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓███▓▓▒▒▒▒▒▒█          
+           █████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓█████          
+          ██▒▒▒▒▒▒▒▒▒▒▒▓██▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓██▒▒▒▒▒▒▒▒▒▒▒▒█          
+          █▒▒▒▒▒▒▒▒▒▒▒▒██▓ ▒▓▒▒▒▒▒▒▒▒▒▒▒▒▒▓▒ ▓█▓▒▒▒▒▒▒▒▒▒▒▒▒█         
+         █▓▒▒▒▒▒▒▒▒▒▒███████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒███████▓▒▒▒▒▒▒▒▒▒▓█        
+         █▒▒▒▒▒▒▒▒▒▒▒▒▓█▓▓▓▒▒▒░         ░▒▒▒▓▓▓█▓▒▒▒▒▒▒▒▒▒▒▒▒█        
+        █▓░░░░░▒▒▒▒▒▒█▓▒▒▒░    ░▓█▓▓▓█▓    ░▒▒▒▒▓█▒▒▒▒▒▒░░░░░▓█       
+        █▒        ▒▒█▒▒▒░       ██████▓       ░▒▒▒▓▒░        ▒█       
+        █▒         ░█░      ░▓    ░█░    ▒        ▓░         ▒█       
+        █▓         ░▓        ▓▒  ░▒█▒   ▒▓        ▒░        ░█        
+         █▒        ░█         ░░▒░  ░░░░░         ▒         ▓█        
+          █░        ▒                             ░        ▓█         
+           █▓░                                   ░       ▒██          
+             █▓░                                       ▓██            
+               ██▒                                  ▒██               
+                  ███▒░░                      ░░▒███                  
+                       ████▓▓▒▒▒▒░░░░░▒▒▒▓▓████                                                         
+-->
+<!doctype html>
+<html data-bs-theme="dark">
+<head>
+  <title>PitFusion</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+</head>
+
+<body>
+    <div class="container text-center">
+      <h1>PitFusion</h1>
+      <div class="row align-items-center">
+        <div class="col-lg-9 col-sm-12 mb-3">
+          <img class="rounded img-fluid" src="{{ url_for('video_feed') }}" class='video'>
+        </div>
+
+        <div class="col-lg-3 col-sm-12">
+          <div class="d-grid gap-2 mb-3">
+            <button id="start" type="button" class="btn btn-success">Start Stream</button>
+            <button id="stop" type="button" class="btn btn-danger">Stop Stream</button>
+          </div>
+
+          <div class="dropdown mb-3">
+            <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Colormap</button>
+            <ul class="dropdown-menu">
+              {% for colormap in colormap_list %}
+                <li><a class="dropdown-item" href="#" id="colormap">{{colormap}}</a></li>
+              {% endfor %}
+            </ul>
+
+            <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Interpolation</button>
+            <ul class="dropdown-menu">
+              {% for interpolation in interpolation_list %}
+                <li><a class="dropdown-item" href="#" id="interpolation">{{interpolation}}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+          
+          <div class="form-check form-switch py-2">
+            <input class="form-check-input" type="checkbox" role="switch" id="thermalEnabled" checked style="transform: scale(1.4);">
+            <label class="form-check-label" for="thermalEnabled">Thermal Sensor</label>
+          </div>
+
+          <div class="form-check form-switch py-2">
+            <label class="form-check-label" for="cameraEnabled">Camera</label>
+            <input class="form-check-input" type="checkbox" role="switch" id="cameraEnabled" checked style="transform: scale(1.4);">
+          </div>
+
+          <div class="form-check form-switch py-2">
+            <label class="form-check-label" for="fusionEnabled">FUSION</label>
+            <input class="form-check-input" type="checkbox" role="switch" id="fusionEnabled" checked style="transform: scale(1.4);">
+          </div>
+
+          <div class="row">
+            <div class="col-3">
+              <label for="opacityRange" class="form-label">Opacity</label>
+            </div>
+            <div class="col-9">
+              <input type="range" class="form-range" id="opacityRange" style="transform: scale(1, 1.2);" value="30" min="1" max="100">
+            </div>
+          </div>
+
+<!--
+          <div class="row">
+            <div class="col-3">
+              <label for="paletteRange" class="form-label">Pallete</label>
+            </div>
+            <div class="col-9">
+              <input type="range" class="form-range" id="paletteRange" style="transform: scale(1, 1.2);" value="60" min="48" max="100">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-3">
+              <label for="thresholdRange" class="form-label">Threshold</label>
+            </div>
+            <div class="col-9">
+              <input type="range" class="form-range" id="thresholdRange" style="transform: scale(1, 1.2);" value="35" min="30" max="200">
+            </div>
+          </div>
+ -->
+ 
+        </div>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootstrap.bundle.min.js') }}"></script>
+
+    <script type="text/javascript">
+        $(function() {
+          $('button#start').on('click', function(e) {
+            e.preventDefault()
+            $.getJSON('/start_stream',
+                function(data) {});
+            return false;
+          });
+        });
+        
+        $(function() {
+          $('button#stop').on('click', function(e) {
+            e.preventDefault()
+            $.getJSON('/stop_stream',
+                function(data) {});
+            return false;
+          });
+        });
+
+        $(function() {
+          $('a#colormap').on('click', function(e) {
+            var index = $('a#colormap').index(this);
+            $.getJSON('/colormap/'+index,
+                function(data) {});
+            
+            return false;
+          });
+        });
+
+        $(function() {
+          $('a#interpolation').on('click', function(e) {
+            var index = $('a#interpolation').index(this);
+            $.getJSON('/interpolation/'+index,
+                function(data) {});
+            return false;
+          });
+        });
+
+        $('#thermalEnabled, #cameraEnabled').on('change', function() {
+          if (!$('#thermalEnabled').prop('checked') || !$('#cameraEnabled').prop('checked')) {
+            $('#fusionEnabled').prop('checked', false);
+          }
+          else if ($('#thermalEnabled').prop('checked') && $('#cameraEnabled').prop('checked')) {
+            $('#fusionEnabled').prop('checked', true);
+          }
+        });
+
+        // Fusion switch'i için event listener
+        $(function() {
+          $('#fusionEnabled').on('change', function() {
+            if (this.checked) {
+              // Fusion aktifse, Thermal Sensor ve Camera switch'lerini de aktif yap
+              $('#thermalEnabled').prop('checked', true);
+              $('#cameraEnabled').prop('checked', true);
+            }
+          });
+        });
+
+
+        $('#cameraEnabled').on('change', function() {
+          if ($('#cameraEnabled').prop('checked')) {
+            $.getJSON('/enable_camera',
+                function(data) {});
+            return false;
+          }
+          else if ($('#cameraEnabled').prop('checked') == false) {
+            $.getJSON('/disable_camera',
+                function(data) {});
+            return false;
+          }
+        });
+
+        $('#thermalEnabled').on('change', function() {
+          if ($('#thermalEnabled').prop('checked')) {
+            $.getJSON('/enable_thermal',
+                function(data) {});
+            return false;
+          }
+          else if ($('#thermalEnabled').prop('checked') == false) {
+            $.getJSON('/disable_thermal',
+                function(data) {});
+            return false;
+          }
+        });
+
+        $('#opacityRange').on('change', function() {
+            var opacity = this.value;
+            $.getJSON('/opacity/'+opacity,
+                function(data) {});
+            return false;
+        });
+
+    </script>
+</body>
+</html>
