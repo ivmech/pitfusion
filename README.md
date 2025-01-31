@@ -6,6 +6,13 @@ The **Pitfusion** is a cutting-edge dual-camera module developed for the Raspber
 
 The **Pitfusion** module is a game-changer for Raspberry Pi enthusiasts and professionals, offering unparalleled flexibility and functionality for thermal and visual imaging projects. Explore its capabilities today and take your projects to the next level! 🚀
 
+Video
+---
+### [Youtube video](https://youtu.be/EjRPVNalaHE) of PitFusion.
+
+[![PitFusion](https://raw.githubusercontent.com/ivmech/pitfusion/refs/heads/main/images/thermal_02.jpg)](https://youtu.be/EjRPVNalaHE)
+
+
 Getting Started
 ---
 ### Compatibility
@@ -141,11 +148,3 @@ MLX90640                           0.0.2
 cd ~/pitfusion/WEB
 python pitfusion_web.py
 ```
-
-
-Video
----
-### [Youtube video](https://youtu.be/EjRPVNalaHE) of PitFusion.
-
-[![PitFusion](https://raw.githubusercontent.com/ivmech/pitfusion/refs/heads/main/images/thermal_02.jpg)](https://youtu.be/EjRPVNalaHE)
-
