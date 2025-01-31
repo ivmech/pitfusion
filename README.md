@@ -143,3 +143,7 @@ python pitfusion_web.py
 
 Video
 ---
+### [Youtube video](https://youtu.be/EjRPVNalaHE) of PitFusion.
+
+[![PitFusion](https://raw.githubusercontent.com/ivmech/pitfusion/images/thermal_02.jpg)](https://youtu.be/EjRPVNalaHE)
+
